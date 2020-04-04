@@ -19,6 +19,7 @@ public class myFirstStepDef {
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.facebook.com/");
+        System.out.println("Open URL");
 	  
 	}
 
