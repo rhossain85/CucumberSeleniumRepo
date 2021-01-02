@@ -13,8 +13,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 monochrome=true,
 dryRun=false,
 plugin= {"pretty",
-		"html:target/cucumber-htmlreport",
-		"json:target/cucumber-report5.json",
+		"html:target/cucumber-htmlreport",		
 		"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport5.html"
 	
 		
