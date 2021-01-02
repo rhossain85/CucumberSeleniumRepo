@@ -53,7 +53,7 @@ public class BackgroundStepDef {
 	
 	@Then("^Close Browser$")
 	public void close_Browser() throws Throwable {
-	 driver.quit();
+	 driver.close();
 	}
 }
 
